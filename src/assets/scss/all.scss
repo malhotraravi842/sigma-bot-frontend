@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Ubuntu';
+  font-weight: 500;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+
+  &::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: $primary-bg-blue;
+}
